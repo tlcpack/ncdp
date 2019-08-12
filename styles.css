@@ -22,7 +22,7 @@
     margin-top: 280px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;   
+    justify-content: space-evenly;   
 }
 
 .bio {
@@ -34,4 +34,23 @@
 .biopic {
     width: 35%;
     margin: 20px;
+}
+a:visited {
+    text-decoration: none;
+}
+.donate {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    background-color: coral;
+    color:darkblue;
+    
+}
+
+.donate_button {
+    padding:20px;  
+    text-decoration: none;  
 }
