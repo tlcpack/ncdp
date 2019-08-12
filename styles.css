@@ -35,9 +35,7 @@
     width: 35%;
     margin: 20px;
 }
-a:visited {
-    text-decoration: none;
-}
+
 .donate {
     display: flex;
     justify-content: center;
@@ -53,4 +51,13 @@ a:visited {
 .donate_button {
     padding:20px;  
     text-decoration: none;  
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
 }
