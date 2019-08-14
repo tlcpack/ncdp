@@ -47,6 +47,20 @@
     text-align: center;
 }
 
+.bioname {
+    font-size:50px;
+}
+
+.seat {
+    font-size: 30px;
+    color: coral;
+}
+.bioparagraph {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+
 .biopic {
     width: 35%;
     margin: 20px;
