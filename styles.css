@@ -5,9 +5,9 @@
 .navbar {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 25px;
     margin-bottom: 50px;
-    background-color:blue;
+    background-color:darkblue;
     position: fixed;
     top: 0;
     width: 100%;
@@ -16,6 +16,22 @@
 .navbar a {
     color: lightgrey;
     padding: 20px;
+}
+
+.current {
+    border: 4px;
+    border-color: darkblue;
+    border-style: double;
+    padding: 19px;
+    background-color: white;
+    color: darkblue;
+}
+
+.links {
+    border: 4px;
+    border-color: white;
+    border-style: double;
+    padding: 19px;
 }
 
 .snapshot {
