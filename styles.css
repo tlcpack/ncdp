@@ -124,7 +124,10 @@ textarea {
     vertical-align: top;
     height: 5em;
 }
-
+.form_title {
+    margin: auto;
+    text-align: center;
+}
 .button {
     padding-left: 90px;
 }
