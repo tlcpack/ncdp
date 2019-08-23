@@ -15,7 +15,7 @@
 
 .navbar a {
     color: lightgrey;
-    padding: 20px;
+    margin: 20px;
 }
 
 .current {
@@ -154,4 +154,15 @@ button {
     background-color: darkblue;
     color:lightgrey;
     font-size: 20px;
+}
+
+.about_title {
+    margin: auto;
+    text-align: center;
+}
+
+.about_content {
+    margin: auto;
+    text-align: center;
+    width: 400px;
 }
