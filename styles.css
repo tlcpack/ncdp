@@ -20,6 +20,21 @@ body {
     width: 100%;
 }
 
+.content {
+	position: relative;
+	min-height: 100vh;
+	transform-origin: center left;
+	transition: transform 0.3s ease-in-out;
+}
+
+.content img {
+	max-width: 30%;
+}
+
+.content.active {
+	transform: translateX(200px) rotateY(20deg);
+}
+
 .navbar a {
     color: lightgrey;
     margin: 20px;
@@ -244,4 +259,10 @@ button {
 
 .menu:focus {
 	outline: none;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 30px;
 }

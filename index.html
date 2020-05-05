@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
     <title>SAMPLE candidate page</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- <header>
          <div class="navbar">
             <a href=""><div class="current">Home</div></a>
@@ -19,65 +22,107 @@
     </header> -->
 
     <div class="sidebar" id="sidebar">
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
-        <button class="menu" id="menu">
-            <i class="fas fa-times"></i>
-            <i class="fas fa-bars"></i>
-        </button>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <button class="menu" id="menu">
+        <i class="fas fa-times"></i>
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="snapshot">
+          <div class="bio">
+            <div class="bioname">Taylor Cooke</div>
+            <br /><br />
+            <div class="seat">NC House 120</div>
+            <br /><br />
+            <div class="bioparagraph">
+              Dur'm rockwood historic preservation full frame craft cocktail
+              beer house-made, dirty durham corcoran underground nasher.
+              <br /><br />Sodu partner the pickle watts partner the park,
+              historic preservation arm wrestling beard partner.
+              <br /><br />D-town bay 7 the pickle hope valley vest sculpture
+              corcoran, eno river black wall street 55 start-up rigsbee, third
+              fridays hayti merge records wool e bull beer.
+            </div>
+            <br /><br /><br /><br />
+            <div class="donate_wrapper">
+              <a href=""
+                ><div class="donate">
+                  <div class="donate_button">DONATE</div>
+                </div></a
+              >
+            </div>
+          </div>
+
+          <div class="biopic">
+            <img
+              src="pics/Taylor Cooke Headshot (Cohort 4).jpg"
+              style="
+                width: 200px;
+                height: auto;
+                border: solid;
+                border-radius: 30px;
+                margin-bottom: 30px;
+                text-align: center;
+              "
+            /><br /><br /><iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/dObIaERXEVI"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <br /><br />
+
+        <br /><br /><br />
+      </div>
     </div>
 
-    <div class="snapshot">
-        <div class="bio">
-            <div class="bioname">Taylor Cooke</div><br><br>
-            <div class="seat">NC House 120</div><br><br>
-            <div class="bioparagraph">Dur'm rockwood historic preservation full frame craft cocktail beer house-made, dirty durham corcoran underground nasher. <br><br>Sodu partner the pickle watts partner the park, historic preservation arm wrestling beard partner. <br><br>D-town bay 7 the pickle hope valley vest sculpture corcoran, eno river black wall street 55 start-up rigsbee, third fridays hayti merge records wool e bull beer.</div><br><br><br><br>
-            <div class="donate_wrapper"><a href=""><div class="donate">
-                <div class="donate_button">DONATE</div>
-            </div></a></div>
-        </div>
-
-        <div class="biopic"><img src="pics/Taylor Cooke Headshot (Cohort 4).jpg" style="width: 200px; height: auto; border: solid; border-radius: 30px; margin-bottom: 30px; text-align: center;"><br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/dObIaERXEVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    </div><br><br>
-
-    <br><br><br>
-
-<!-- using basic HTML form guide from MDN: https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form -->
+    <!-- using basic HTML form guide from MDN: https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form -->
 
     <footer class="contact_form">
-        <form action="" method="POST">
-            <div class="form_title">
-                Stay updated
-            </div>
-            <div>
-                <div class="form_name">
-                    <label for="name"></label>
-                    <input type="text" id="name" name="user_name" placeholder=" Name">
-                </div>
-            </div>
-            <div>
-                <div class="form_email">
-                    <label for="mail"></label>
-                    <input type="email" id="mail" name="user_mail" placeholder=" Email">
-                </div>
-            </div>
-            <div class="button">
-                <button type="submit">Submit</button>
-            </div>
-        </form>
+      <form action="" method="POST">
+        <div class="form_title">
+          Stay updated
+        </div>
+        <div>
+          <div class="form_name">
+            <label for="name"></label>
+            <input type="text" id="name" name="user_name" placeholder=" Name" />
+          </div>
+        </div>
+        <div>
+          <div class="form_email">
+            <label for="mail"></label>
+            <input
+              type="email"
+              id="mail"
+              name="user_mail"
+              placeholder=" Email"
+            />
+          </div>
+        </div>
+        <div class="button">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
     </footer>
+  </body>
+  <script>
+    const menuBtn = document.getElementById("menu");
+    const sidebar = document.getElementById("sidebar");
+    const content = document.getElementById("content");
 
-</body>
-<script>
-    const menuBtn = document.getElementById('menu');
-    const sidebar = document.getElementById('sidebar');
-    const content = document.getElementById('content');
-    
-    menuBtn.addEventListener('click', () => {
-        sidebar.classList.toggle('active');
-        content.classList.toggle('active');
+    menuBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("active");
+      content.classList.toggle("active");
     });
-</script>
+  </script>
 </html>
