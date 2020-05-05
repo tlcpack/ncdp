@@ -6,16 +6,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
     <title>SAMPLE candidate page</title>
 </head>
 
 <body>
-    <header>
-        <div class="navbar">
+    <!-- <header>
+         <div class="navbar">
             <a href=""><div class="current">Home</div></a>
             <a href="about.html"><div class="links">About Me</div></a>
         </div>
-    </header>
+    </header> -->
+
+    <div class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <button class="menu" id="menu">
+            <i class="fas fa-times"></i>
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
 
     <div class="snapshot">
         <div class="bio">
@@ -58,4 +70,14 @@
     </footer>
 
 </body>
+<script>
+    const menuBtn = document.getElementById('menu');
+    const sidebar = document.getElementById('sidebar');
+    const content = document.getElementById('content');
+    
+    menuBtn.addEventListener('click', () => {
+        sidebar.classList.toggle('active');
+        content.classList.toggle('active');
+    });
+</script>
 </html>
